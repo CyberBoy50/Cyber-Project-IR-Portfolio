@@ -1,0 +1,12 @@
+*.evtx
+*.zip
+*.pcap
+*.pcapng
+*.key
+*.pem
+.env
+*password*
+*credential*
+Screenshots/
+Evidence/
+
