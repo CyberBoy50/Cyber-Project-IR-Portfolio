@@ -1,4 +1,4 @@
-# Incident Response Coursework Portfolio
+﻿# Incident Response Coursework Portfolio
 
 A five-project incident-response portfolio built in an isolated virtual lab. It demonstrates response planning, Windows event-log analysis, evidence-preservation documentation, a discussion-only ransomware tabletop, and an integrated executive/technical case assessment.
 
@@ -15,6 +15,10 @@ A five-project incident-response portfolio built in an isolated virtual lab. It 
 | 5 | Advanced integrated executive and technical engagement report | [PDF](reports/Project-05_Advanced-Full-IR-Engagement_Report_FINAL.pdf) | [DOCX](reports/Project-05_Advanced-Full-IR-Engagement_Report_FINAL.docx) |
 | Portfolio | Consolidated review of all five projects and their evidence boundaries | [PDF](reports/Cyber_Project_Integrated_IR_Report_FINAL.pdf) | [DOCX](reports/Cyber_Project_Integrated_IR_Report_FINAL.docx) |
 
+## Presentation
+
+The [13-slide public briefing](presentation/CEH_IR_Briefing_Public.pptx) summarizes the lab scope, five-project structure, selected findings, evidence limits, and response recommendations. The public copy omits embedded screenshots and speaker notes, and replaces lab addresses and personal identifiers.
+
 ## Case summary
 
 The reports analyze a controlled Windows SMB authentication sequence in a private virtual lab, correlate selected Windows Security and System events, and separately document a later one-shot administrative validation. The evidence supports the specific events described in each report; it does not establish unauthorized access to a real organization or data exfiltration. A separate ransomware scenario was conducted as a paper tabletop, without running ransomware or changing a VM.
@@ -27,17 +31,17 @@ The documented workflow uses a segmented VMware lab, Nmap for authorized service
 
 ```text
 reports/      Six de-identified project and portfolio reports (PDF + editable DOCX)
+presentation/ De-identified 13-slide PowerPoint briefing
 README.md     Project overview and scope
 SECURITY.md   Public-release and evidence-handling boundaries
 ```
 
 ## Public-release handling
 
-This repository intentionally contains curated, de-identified reports only. Raw EVTX files, live-response archives, screenshots, candidate credentials, account identifiers, hostnames, and exact lab addresses are excluded. Names and lab identifiers appearing in the source reports were replaced in this public copy.
+This repository contains curated, de-identified reports and a public briefing deck. Raw EVTX files, live-response archives, screenshots, candidate credentials, account identifiers, hostnames, and exact lab addresses are excluded. The briefing's embedded screenshots and speaker notes were removed. Names and lab identifiers appearing in the source materials were replaced in this public copy.
 
 ## Academic context
 
 Prepared as coursework for Incident Response Handling. The original private submission folder remains the source of the complete evidence package. Please cite this repository as an educational case study if reusing its structure.
-
 
 
