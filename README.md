@@ -17,7 +17,7 @@ A five-project incident-response portfolio built in an isolated virtual lab. It 
 
 ## Presentations
 
-- [47-slide detailed training briefing](presentation/Cyber_Project_Complete_IR_Training_Briefing.pptx) explains the five projects with 5W1H summaries, step-by-step workflows, tool deep dives, evidence boundaries, lessons, and Roman Urdu presenter notes for a classroom audience.
+- [47-slide Roman Urdu detailed training presentation](presentation/Cyber_Project_Complete_IR_Training_Briefing.pptx) explains the five projects with visible slide text and Roman Urdu presenter notes, covering 5W1H summaries, step-by-step workflows, tool deep dives, evidence boundaries, and lessons for a classroom audience.
 - [13-slide concise public briefing](presentation/CEH_IR_Briefing_Public.pptx) provides a shorter executive overview of the lab, findings, limitations, and recommendations.
 
 ## Case summary
@@ -44,6 +44,7 @@ This repository contains curated, de-identified reports and two public presentat
 ## Academic context
 
 Prepared as coursework for Incident Response Handling. The original private submission folder remains the source of the complete evidence package. Please cite this repository as an educational case study if reusing its structure.
+
 
 
 
